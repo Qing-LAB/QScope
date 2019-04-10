@@ -21,7 +21,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="data-time-expand-by-fitting.vi" Type="VI" URL="../data-time-expand-by-fitting.vi"/>
 		<Item Name="generate_timestamp.vi" Type="VI" URL="../generate_timestamp.vi"/>
-		<Item Name="init_task.vi" Type="VI" URL="../init_task.vi"/>
+		<Item Name="init_AI_task.vi" Type="VI" URL="../init_AI_task.vi"/>
+		<Item Name="init_AO_task.vi" Type="VI" URL="../init_AO_task.vi"/>
 		<Item Name="QScope.vi" Type="VI" URL="../QScope.vi"/>
 		<Item Name="spectrum-analysis.vi" Type="VI" URL="../spectrum-analysis.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -538,7 +539,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/init_task.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/init_AI_task.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
